@@ -1,0 +1,32 @@
+body {
+    background-color: #282828;
+}
+#backgroundImage {
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+#inputbox {
+    width: 50%;
+    float: right;
+}
+#inputbox {
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+#wordbuttons {
+    font-family: 'Quicksand', sans-serif;
+}
+
+#images {
+    width: 50%;
+    float: left;
+    color: white;
+}
