@@ -29,7 +29,7 @@ $(document).ready(function () {
                 console.log(response);
                 // Saving the image_original_url property
                 for (i = 0; i < response.data.length; i++) {
-                    var imageUrl = response.data[i].images.fixed_height_still.url;
+                    var imageUrl = response.data[i].images.original_still.url;
                     var imageGif = response.data[i].images.original.url;
                     var rating = response.data[i].rating;
 
@@ -80,7 +80,7 @@ $(document).ready(function () {
 
                 // Saving the image_original_url property
                 for (i = 0; i < response.data.length; i++) {
-                    var imageUrl = response.data[i].images.fixed_height_still.url;
+                    var imageUrl = response.data[i].images.original_still.url;
                     var imageGif = response.data[i].images.original.url;
                     var rating = response.data[i].rating;
 
